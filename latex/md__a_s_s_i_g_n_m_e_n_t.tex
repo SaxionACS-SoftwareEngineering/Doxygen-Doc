@@ -1,0 +1,44 @@
+Time to complete\+: $\sim$1 hour Teams\+: 2 persons per team (you can also do it individually)
+
+If you do this individually, you need to do tasks for both Person 1 \& 2, skipping the {\ttfamily pull}ing.\hypertarget{md__a_s_s_i_g_n_m_e_n_t_autotoc_md1}{}\doxysection{Assignment}\label{md__a_s_s_i_g_n_m_e_n_t_autotoc_md1}
+
+\begin{DoxyEnumerate}
+\item Clone the repository to your computer and open the cloned project (it\textquotesingle{}s a C++ Cmake project)
+\item Person 1\+:
+\begin{DoxyItemize}
+\item Add another operation class (multiplication) to the program.
+\item Make sure to use this new operation in the {\ttfamily main}.
+\item {\ttfamily add} \& {\ttfamily commit} your changes.
+\item {\ttfamily push} the changes to the remote repository.
+\end{DoxyItemize}
+\item Person 2\+:
+\begin{DoxyItemize}
+\item {\ttfamily pull} the changes -\/ you should see the new operation added by Person 1.
+\item Add another operation class (subtraction) to the program.
+\item Make sure to use this new operation in the {\ttfamily main}.
+\item {\ttfamily add} \& {\ttfamily commit} your changes.
+\item {\ttfamily push} the changes to the remote repository.
+\end{DoxyItemize}
+\item The next part is done simultaneously by Person 1 \& Person 2. Make sure that both of you have the latest changes on your local computers by {\ttfamily pull}-\/ing. Do not edit the same files at the same time as the other person!
+
+Person 1\+:
+\begin{DoxyItemize}
+\item Create a new file {\itshape README.\+md} in the main directory of the project.
+\item Add some description of the project/ program in this file (it\textquotesingle{}s a markdown document3).
+\item {\ttfamily add}, {\ttfamily commit} and {\ttfamily push} your changes.
+
+Person 2\+:
+\item Edit {\itshape CMake\+Lists.\+txt} to enable compiler warnings for the project (you should already know how to do it, if not review your first-\/year classes.)
+\item {\ttfamily add}, {\ttfamily commit} and {\ttfamily push} your changes.
+
+After you\textquotesingle{}ve both {\ttfamily push}-\/ed, {\ttfamily pull} and see what happens!
+\end{DoxyItemize}
+\item Together, search on Internet what is the purpose of $\ast$.gitignore$\ast$ (hint\+: it\textquotesingle{}s a file). Once you know what it is do the following (only one of you does the changes to the repo, the other helps).
+\begin{DoxyItemize}
+\item Add a $\ast$.gitignore$\ast$ file to your project\textquotesingle{}s main directory.
+\item Make sure that you add the patterns in $\ast$.gitignore$\ast$ to ignore the build directories (they begin with {\itshape cmake-\/build-\/}).
+\item Delete the build directories from your project.
+\item {\ttfamily add}, {\ttfamily commit} and {\ttfamily push} your changes.
+\item Verify that the remote repository doesn\textquotesingle{}t contain the build directories anymore. 
+\end{DoxyItemize}
+\end{DoxyEnumerate}
